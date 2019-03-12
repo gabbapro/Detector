@@ -3,8 +3,6 @@ Detector.py
 
 Author		Version		Date		Comments
 ------------------------------------------------------------------------------------
-Gabba		0.1		2019 02 06	Initial Version
-Gabba		0.2		2019 03 04	Bug Fix + New Path Drive
 Gabba       0.3     2019 03 12  Trim the number of photos, upload the photos in a specified OCI Object Storage bucket
 
 """
