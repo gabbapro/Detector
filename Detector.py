@@ -1,9 +1,6 @@
 """
 Detector.py
-
-Author		Version		Date		Comments
-------------------------------------------------------------------------------------
-Gabba       0.3     2019 03 12  Trim the number of photos, upload the photos in a specified OCI Object Storage bucket
+Gabba       v0.3     2019 03 12  Trim the number of photos, upload the photos in a specified OCI Object Storage bucket
 
 """
 
