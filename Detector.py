@@ -5,8 +5,7 @@ Author		Version		Date		Comments
 ------------------------------------------------------------------------------------
 Gabba		0.1		2019 02 06	Initial Version
 Gabba		0.2		2019 03 04	Bug Fix + New Path Drive
-Gabba   0.3   2019 03 12  Trim the number of photos, upload the photos in a
-                          specified OCI Object Storage bucket
+Gabba   0.3   2019 03 12  Trim the number of photos, upload the photos in a specified OCI Object Storage bucket
 
 """
 
@@ -108,7 +107,7 @@ def cozmo_program(robot: cozmo.robot.Robot):
     robot.drive_straight(distance_mm(230), speed_mmps(90), False, False, 0).wait_for_completed()
     robot.turn_in_place(degrees(-90)).wait_for_completed()
     robot.drive_straight(distance_mm(50), speed_mmps(90), False, False, 0).wait_for_completed()
-    #new image == new pic
+    # new image == new pic
     robot.add_event_handler(cozmo.world.EvtNewCameraImage, on_new_camera_image)
     shoot_sequence(robot)
 
