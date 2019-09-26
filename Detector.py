@@ -18,7 +18,7 @@ from oci.object_storage.models import CreateBucketDetails
 # Global Vars
 directory = '.'
 liveCamera = False
-compartment_id = "ocid1.compartment.oc1..aaaaaaaadgkz352ghmiydawau7qua5gld2nxosmv5m6tmues6tavqvr22vla"
+compartment_id = "ocid1.compartment.oc1..xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 bucket_name = "Cracks"
 
 def on_new_camera_image(evt, **kwargs):
